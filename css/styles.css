@@ -63,7 +63,7 @@ color: #404bbf;
     color: #ffffff;
 }
 
-.h1 {
+.h-one {
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
@@ -87,7 +87,7 @@ color: #ffffff;
    background-color:  #404bbf;
 }
 
-.section-2-together{
+.section-two-together{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -95,7 +95,7 @@ color: #ffffff;
     color: #2e2f42;
 }
 
-.h3-p {
+.h-three-p {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -111,7 +111,7 @@ color: #ffffff;
     background-color: #FFFFFF;
 }
 
-.h2-team {
+.h-two-team {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -121,7 +121,7 @@ color: #ffffff;
     color: #2e2f42;
 }
 
-.h3-name {
+.h-three-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -157,9 +157,6 @@ color: #ffffff;
    font-size: 16px;
    line-height: 1.5; 
    letter-spacing: 0.02em;
-}
-.footer-logo {
-    color: #ffffff;
 }
 
 .logo-part {
