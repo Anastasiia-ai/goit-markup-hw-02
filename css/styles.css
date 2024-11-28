@@ -38,6 +38,10 @@ a {
 
 .address {
     font-style: normal;
+    font-weight: 400;
+    font-size: 16px; 
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .address-link {
@@ -56,12 +60,25 @@ color: #404bbf;
 
 .main-section {
     background-color: #2e2f42;
-    color: #fff;
+    color: #ffffff;
+}
+
+h1 {
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+text-align: center;
+color: #ffffff;
 }
 
 button {
     background-color: #4d5ae5;
-    color: #fff;
+    color: #ffffff;
+    line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    font-weight: 500;
 }
 
 button:hover,
@@ -69,18 +86,71 @@ button:focus{
    background-color:  #404bbf;
 }
 
+.section-2-together{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.h3-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
 .section-team {
     background-color: #f4f4fb;
 }
 
+.h2-team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.h3-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.p-job {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+
+.portfolio {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
 footer {
     background-color: #2e2f42;
-    color: #fff;
+    color: #ffffff;
     font-weight: 400;
    font-size: 16px;
-   line-height: 24px; 
+   line-height: 1.5; 
    letter-spacing: 0.02em;
 }
 .footer-logo .logo-part{
-    color: #fff;
+    color: #ffffff;
 }
