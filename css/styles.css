@@ -1,7 +1,7 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    color: #434445;
+    color: #434455;
     background-color: #fff;
 }
 
@@ -21,7 +21,7 @@ a {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4b5ae5;
+    color: #4d5ae5;
 }
 
 .header-logo .logo-part{
@@ -63,7 +63,7 @@ color: #404bbf;
     color: #ffffff;
 }
 
-h1 {
+.h1 {
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
@@ -72,17 +72,18 @@ text-align: center;
 color: #ffffff;
 }
 
-button {
+.button {
     background-color: #4d5ae5;
     color: #ffffff;
     line-height: 1.5;
     font-size: 16px;
     letter-spacing: 0.04em;
     font-weight: 500;
+    cursor: pointer;
 }
 
-button:hover,
-button:focus{
+.button:hover,
+.button:focus{
    background-color:  #404bbf;
 }
 
@@ -103,15 +104,20 @@ button:focus{
 }
 
 .section-team {
-    background-color: #f4f4fb;
+    background-color: #f4f4fd;
+}
+
+.section-list-team {
+    background-color: #FFFFFF;
 }
 
 .h2-team {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: #2e2f42;
 }
 
@@ -140,10 +146,11 @@ button:focus{
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: #2e2f42;
 }
 
-footer {
+.footer {
     background-color: #2e2f42;
     color: #ffffff;
     font-weight: 400;
@@ -151,6 +158,14 @@ footer {
    line-height: 1.5; 
    letter-spacing: 0.02em;
 }
-.footer-logo .logo-part{
+.footer-logo {
     color: #ffffff;
+}
+
+.logo-part {
+    color: #f4f4fd;
+}
+
+.footer-p {
+    color: #f4f4fd;
 }
